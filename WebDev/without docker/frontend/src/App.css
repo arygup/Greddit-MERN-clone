@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.Lsu {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg,#7439db, #C66FBC 48%, #F7944D)
+}
+.form { 
+    display: flex;
+    flex-direction: column;
+}
+.auth-form-container {
+    padding: 5rem;
+    border: 1px solid white; 
+    border-radius: 10px;
+    align-self: auto;
+    margin: 7%;
+    transition: transform .25s;
+}
+.auth-form-container:hover{
+    transform: scale(1.1);
+}
+.label {
+    padding: 0.25rem 0;
+    text-align: center;
+}
+input {
+    margin: 5px;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+button {
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: D#7439db;
+}
+
+.heading {
+    padding: 0.25rem 0;
+    font-size: x-large;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+}
+.hu {
+    padding: 0.25rem 0;
+    font-size: x-large;
+    margin: 10px;
+    color: darkblue;
+}
+.hd{
+    padding: 0.25rem 0;
+    margin: 13px;
+    size: large;
+    color: aqua;
+}
+.header {
+    color: white;
+    background-image: linear-gradient(79deg,#5105d5, #c543b6 48%, #fa6b05)
+}
+
+.ulcontainer {
+    display: flex;
+    padding: 5rem;
+    border: 1px solid white; 
+    border-radius: 10px;
+    align-self: auto;
+}
+
+.Userinfo {
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s;
+    margin: auto;
+    align-self: auto;
+}
+
+.Userinfo:hover {
+    transform: scale(1.1);
+}
+
+
+
+.logout {
+    background-color: rgb(250, 43, 43);
+}
+.category {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.catt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 3px;
+}
+.logouthead {
+    background-color: rgb(250, 43, 43);
+    margin: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+
+.userbutton {
+    background-color: transparent;
+    font-size: x-large;
+    color: white ;
+    height: 0.5%;
+}
+.usrbutton {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    padding: 0;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+  }
+.headerlog {
+    display: flex;
+    background-image: linear-gradient(79deg,#5105d5, #c543b6 48%, #fa6b05);
+    align-items: center;
+    align-content: center;
+}
+
+h4 {
+    color: black;
+}
