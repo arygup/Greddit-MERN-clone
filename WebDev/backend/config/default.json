@@ -1,4 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://aryangupta:ki7MHzaeJwAYFT4@gredditaryancluster0.jy29z07.mongodb.net/?retryWrites=true&w=majority",
+    "mongoURI" : "mongodb+srv://aryangupta:<secret>.mongodb.net/?retryWrites=true&w=majority",
     "jwttoken" : "aryanguptakascret"
 }
